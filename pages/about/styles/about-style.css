@@ -1,10 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    color: blue;
+    background-color: slategray;
+    color: white;
 }
 
-
-
-footer {
-    text-align: center;
-}

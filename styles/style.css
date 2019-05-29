@@ -1,0 +1,226 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: slategray;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.header-buttons {
+    border: 3px solid yellow;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+.button-text {
+    font-size: 24px;
+    padding-top: calc(50% - 60px);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.header-center {
+    font-size: 80px;
+    padding: 10px 0;
+}
+
+.social-icon {
+    height: 100px;
+    width: auto;
+    padding: 10px 0;
+}
+
+.anna-headshot {
+    height: 110px;
+    width: auto;
+    padding: 5px 0;
+    border-radius: 50%;
+}
+
+.main-container {
+    margin-top: 20px;
+}
+
+.main-re {
+    margin: 60px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-areas: 
+        "left right1"
+        "left right2"
+        "left right3";
+}
+
+.main-re-left {
+    grid-area: left;
+    font-size: 100px;
+    padding-top: 120px;
+    text-align: right;
+    margin-right: 30px;
+    animation-name: bounceInLeft;
+    animation-duration: 1s;
+}
+
+.main-re-right-1 {
+    grid-area: right1;
+    font-size: 60px;
+    padding: 30px 0;
+    margin-left: 30px;
+    animation-name: bounceInRight;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.main-re-right-2 {
+    grid-area: right2;
+    font-size: 60px;
+    padding: 30px 0;
+    margin-left: 30px;
+    animation-name: bounceInRight;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+.main-re-right-3 {
+    grid-area: right3;
+    font-size: 60px;
+    padding: 30px 0;
+    margin-left: 30px;
+    animation-name: bounceInRight;
+    animation-duration: 1s;
+    animation-delay: 3s;
+}
+
+.main-testimonials {
+    background-color: navy;
+    padding: 10px 0;
+}
+
+.testimonial-header {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.testimonial {
+    width: 20%;
+    justify-content: space-around;
+    margin: 10px auto;
+    padding: 10px 40px;
+}
+
+.testimonial1 {
+    background-color: salmon;
+}
+
+.testimonial2 {
+    background-color: seagreen;
+}
+
+.testimonial3 {
+    background-color: lightblue;
+}
+
+.testimonial-text {
+    text-align: center;
+}
+
+.testimonial-name {
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.main-work {
+    background-color: #908070;
+    margin: 10px 0;
+}
+
+.work-header {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.main-project {
+    width: 20%;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .header-container {
+        flex-direction: row-reverse;
+        height: auto;
+        justify-content: center;
+    }
+
+    .header-buttons {
+        margin: auto;
+    }
+
+    .header-center {
+        font-size: 30px;
+    }
+
+    .anna-headshot {
+        display: none;
+    }
+
+    .main-re {
+        display: auto;
+    }
+
+    .main-re-left {
+        animation-name: none;
+        font-size: 40px;
+    }
+
+    .main-re-right-1 {
+        animation-name: none;
+        font-size: 40px;
+    }
+
+    .main-re-right-2 {
+        animation-name: none;
+        font-size: 40px;
+    }
+
+    .main-re-right-3 {
+        animation-name: none;
+        font-size: 40px;
+    }
+
+    .testimonial {
+        width: 300px;
+    }
+
+    .main-project {
+        width: 300px;
+    }
+}
