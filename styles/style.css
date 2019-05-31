@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: slategray;
+    background-image: url(../media/office1.jpg);
     color: white;
 }
 
@@ -9,6 +9,11 @@ body {
     flex-direction: row;
     justify-content: space-around;
     height: 120px;
+}
+
+.header-color {
+    background-color: gray;
+    opacity: 0.8;
 }
 
 .header-buttons {
