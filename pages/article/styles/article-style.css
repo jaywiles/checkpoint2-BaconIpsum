@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background-image: url(../media/office1.jpg);
+    background-image: url(../../../media/office1.jpg);
     color: white;
 }
 
@@ -9,6 +9,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     height: 120px;
+    margin-bottom: 20px;
 }
 
 .header-color {
@@ -46,6 +47,46 @@ body {
     border-radius: 50%;
 }
 
+.main-container {
+    background: rgba(14, 15, 73, 0.6)
+}
+
+.articles-header {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.main-subcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.article > a {
+    text-decoration: none;
+    color: white;
+}
+
+.article > a:hover {
+    color: blue;
+}
+
+.article {
+    width: 350px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+    background: rgba(14, 15, 73, 0.8)
+}
+
+.article-header {
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
 @media (max-width: 576px) {
     .header-container {
         flex-direction: row-reverse;
@@ -68,5 +109,6 @@ body {
 
 footer {
     text-align: center;
+    padding: 20px 0 0 0;
 }
 
