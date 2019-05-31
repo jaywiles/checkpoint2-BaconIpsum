@@ -12,8 +12,7 @@ body {
 }
 
 .header-color {
-    background-color: gray;
-    opacity: 0.8;
+    background: rgba(128, 128, 128, 0.6);
 }
 
 .header-buttons {
@@ -103,7 +102,7 @@ body {
 }
 
 .main-testimonials {
-    background-color: navy;
+    background: rgba(12, 18, 102, 0.7);
     padding: 10px 0;
 }
 
@@ -149,7 +148,7 @@ body {
 }
 
 .main-work {
-    background-color: #908070;
+    background: rgba(65, 54, 5, 0.7);
     margin: 10px 0;
 }
 
