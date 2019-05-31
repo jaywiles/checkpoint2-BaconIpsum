@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: slategray;
+    background-image: url(../../../media/office1.jpg);
     color: white;
 }
 
@@ -9,6 +9,11 @@ body {
     flex-direction: row;
     justify-content: space-around;
     height: 120px;
+    margin-bottom: 20px;
+}
+
+.header-color {
+    background: rgba(128, 128, 128, 0.6);
 }
 
 .header-buttons {
@@ -42,6 +47,20 @@ body {
     border-radius: 50%;
 }
 
+.article-container {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    background: rgba(21, 200, 212, 0.7);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+iframe {
+    margin: 0 auto;
+    display: flex;
+}
+
 @media (max-width: 576px) {
     .header-container {
         flex-direction: row-reverse;
@@ -68,5 +87,6 @@ body {
 
 footer {
     text-align: center;
+    padding: 20px 0 0 0;
 }
 
