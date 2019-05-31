@@ -1,0 +1,93 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../../../../../media/office1.jpg);
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.header-color {
+    background: rgba(128, 128, 128, 0.6);
+}
+
+.header-buttons {
+    border: 3px solid yellow;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+
+.button-text {
+    font-size: 24px;
+    padding-top: calc(50% - 60px);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.header-center {
+    font-size: 80px;
+    padding: 10px 0;
+}
+
+.social-icon {
+    height: 100px;
+    width: auto;
+    padding: 10px 0;
+}
+
+.anna-headshot {
+    height: 110px;
+    width: auto;
+    padding: 5px 0;
+    border-radius: 50%;
+}
+
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(14, 15, 73, 0.8)
+}
+
+.article-header {
+    text-align: center;
+    font-size: 80px;
+    padding: 20px 0;
+}
+
+.article-text {
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .header-container {
+        flex-direction: row-reverse;
+        height: auto;
+        justify-content: center;
+    }
+
+    .header-buttons {
+        margin: auto;
+    }
+
+    .header-center {
+        font-size: 30px;
+    }
+
+    .anna-headshot {
+        display: none;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
