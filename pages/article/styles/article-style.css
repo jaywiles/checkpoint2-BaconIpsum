@@ -76,7 +76,7 @@ body {
 .article {
     width: 350px;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 10px 20px;
     text-align: center;
 }
