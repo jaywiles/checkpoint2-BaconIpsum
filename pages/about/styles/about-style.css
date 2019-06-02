@@ -63,7 +63,6 @@ iframe {
 
 @media (max-width: 576px) {
     .header-container {
-        flex-direction: row-reverse;
         height: auto;
         justify-content: center;
     }
@@ -76,8 +75,19 @@ iframe {
         font-size: 30px;
     }
 
+    .social-icon {
+        height: 50px;
+    }
+
     .anna-headshot {
         display: none;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .article-container {
+        font-size: 20px;
     }
 
     iframe {
